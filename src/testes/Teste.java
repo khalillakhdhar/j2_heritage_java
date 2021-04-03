@@ -11,6 +11,8 @@ public class Teste {
 		Laptop o2=new Laptop("I7 10G","ASUS",24, 1024,"Gforce GTX", 4000);
 		o2.setAutonomie(3);
 		
+		
+		
 		System.out.println(o1.toString());
 		System.out.println(o2.toString());
 	}
