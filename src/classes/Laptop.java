@@ -2,7 +2,7 @@ package classes;
 
 public class Laptop extends Ordinateur {
 
-	float autonomie;
+	private float autonomie;
 	
 	
 	public Laptop() {
@@ -18,5 +18,13 @@ public class Laptop extends Ordinateur {
 		super(cpu, marque, ram, disque, cartegraphique, prix);
 		// TODO Auto-generated constructor stub
 	}
+
+	public Laptop(String cpu, String marque, int ram, int disque, String cartegraphique, float prix, float autonomie) {
+		super(cpu, marque, ram, disque, cartegraphique, prix);
+		this.autonomie = autonomie;
+	}
+	
+	
+	
 
 }
