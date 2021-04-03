@@ -23,6 +23,14 @@ public class Laptop extends Ordinateur {
 		super(cpu, marque, ram, disque, cartegraphique, prix);
 		this.autonomie = autonomie;
 	}
+
+	public float getAutonomie() {
+		return autonomie;
+	}
+
+	public void setAutonomie(float autonomie) {
+		this.autonomie = autonomie;
+	}
 	
 	
 	
