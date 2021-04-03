@@ -59,6 +59,11 @@ public Ordinateur(String cpu, String marque, int ram, int disque, String cartegr
 	this.cartegraphique = cartegraphique;
 	this.prix = prix;
 }
+@Override
+public String toString() {
+	return "Ordinateur [cpu=" + cpu + ", marque=" + marque + ", ram=" + ram + ", disque=" + disque + ", cartegraphique="
+			+ cartegraphique + ", prix=" + prix + "]";
+}
 
 
 
