@@ -31,6 +31,12 @@ public class Laptop extends Ordinateur {
 	public void setAutonomie(float autonomie) {
 		this.autonomie = autonomie;
 	}
+
+	@Override
+	public String toString() {
+		return "Laptop [autonomie=" + autonomie + ", paramétre=" + super.toString() + "]";
+	}
+	
 	
 	
 	
