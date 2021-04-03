@@ -12,7 +12,7 @@ public class Teste {
 		o2.setAutonomie(3);
 		
 		System.out.println(o1.toString());
-
+		System.out.println(o2.toString());
 	}
 
 }
